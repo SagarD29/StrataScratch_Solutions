@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 merge = pd.merge(customers, orders, left_on="id", right_on="cust_id")
 cust = ["Jill", "Eva"]
